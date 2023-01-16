@@ -1,3 +1,7 @@
+Sushma Pamidi
+Git repo: https://github.com/pamidisushma02/streaming-02-multiple-processes-main
+
+
 # streaming-02-multiple-processes
 
 > Multiple processes accessing a shared resource concurrently
