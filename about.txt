@@ -1,0 +1,44 @@
+
+
+==============================================================
+==============================================================
+
+ Welcome! 
+
+ It's 2023-01-15 at 11:08 PM
+
+ This file is running on:    nt Windows 10
+ 
+ The Python version is:      3.10.9
+ 
+ The Python interpreter is at: 
+ C:\Users\spamidi\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\python.exe
+
+ The active environment should be either conda OR pip (one should be None):
+
+     Active conda env is: None
+     Active pip env is:   None
+ 
+ The path to the active virtual environment is:
+
+ C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0
+ 
+ The Current Working Directory (CWD) where this command was launched is:
+
+ C:\Users\spamidi\Documents\Data Streaming\Module 2\streaming-02-multiple-processes-main
+ 
+ The absolute path to the data directory is:
+
+ C:\Users\spamidi\Documents\Data Streaming\Module 2\streaming-02-multiple-processes-main\
+ 
+ The absolute path to this source directory is:
+
+ c:\Users\spamidi\Documents\Data Streaming\Module 2\streaming-02-multiple-processes-main
+ 
+ The absolute path to this file is:
+
+ c:\Users\spamidi\Documents\Data Streaming\Module 2\streaming-02-multiple-processes-main\about.py
+ 
+==============================================================
+==============================================================
+

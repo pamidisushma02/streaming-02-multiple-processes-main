@@ -1,0 +1,178 @@
+In the console, type clear and hit Enter or Return. 
+
+This will clear the console output. 
+
+Run the file once while the tasks are short. 
+
+Copy and paste the terminal results (when task_duration is 0) here.
+
+PS C:\Users\spamidi\Documents\Data Streaming\Module 2\streaming-02-multiple-processes-main> & C:/Users/spamidi/AppData/Local/Microsoft/WindowsApps/python3.10.exe "c:/Users/spamidi/Documents/Data Streaming/Module 2/streaming-02-multiple-processes-main/about.py"    
+
+
+==============================================================
+==============================================================
+
+ Welcome! 
+
+ It's 2023-01-15 at 11:08 PM
+
+ This file is running on:    nt Windows 10
+
+ The Python version is:      3.10.9
+
+ The Python interpreter is at:
+ C:\Users\spamidi\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\python.exe
+
+ The active environment should be either conda OR pip (one should be None):
+
+     Active conda env is: None
+     Active pip env is:   None
+
+ The path to the active virtual environment is:
+
+ C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0
+
+ The Current Working Directory (CWD) where this command was launched is:
+
+ C:\Users\spamidi\Documents\Data Streaming\Module 2\streaming-02-multiple-processes-main
+ The absolute path to the data directory is:
+
+ C:\Users\spamidi\Documents\Data Streaming\Module 2\streaming-02-multiple-processes-main\
+
+ The absolute path to this source directory is:
+
+ c:\Users\spamidi\Documents\Data Streaming\Module 2\streaming-02-multiple-processes-main
+
+ c:\Users\spamidi\Documents\Data Streaming\Module 2\streaming-02-multiple-processes-main\about.py
+
+==============================================================
+==============================================================
+
+
+PS C:\Users\spamidi\Documents\Data Streaming\Module 2\streaming-02-multiple-processes-main> & C:/Users/spamidi/AppData/Local/Microsoft/WindowsApps/python3.10.exe "c:/Users/spamidi/Documents/Data Streaming/Module 2/streaming-02-multiple-processes-main/multiple_processes.py"
+
+
+STARTING UP.............................
+It's 2023-01-15 at 11:24 PM
+
+This file is running on:    nt Windows 10
+The Python version is:      3.10.9
+
+The Python interpreter is at:
+ C:\Users\spamidi\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\python.exe
+
+
+DELETED tabble pets.
+CREATED table pets.
+
+P1 getting ready to insert Ace the Dog.
+P1 ADDED Ace the Dog.
+P1 getting ready to insert Buddy the Dog.
+P1 ADDED Buddy the Dog.
+P2 getting ready to insert Cooper the Rabbit.
+P2 ADDED Cooper the Rabbit.
+P2 getting ready to insert Dufus the Dog.
+P2 ADDED Dufus the Dog.
+P3 getting ready to insert Emma the Rabbit.
+P3 ADDED Emma the Rabbit.
+P3 getting ready to insert Felix the Cat.
+P3 ADDED Felix the Cat.
+Now - increase the task duration (representing
+      the time the task has the database
+      tied up during an insert statement).
+How well do the multiple, concurrent processes share a database
+when each task can take more time?
+How can we let multiple processes share a resource
+without interfering with each other?
+
+PS C:\Users\spamidi\Documents\Data Streaming\Module 2\streaming-02-multiple-processes-main> & C:/Users/spamidi/AppData/Local/Microsoft/WindowsApps/python3.10.exe "c:/Users/spamidi/Documents/Data Streaming/Module 2/streaming-02-multiple-processes-main/multiple_processes.py"
+
+
+STARTING UP.............................
+It's 2023-01-15 at 11:25 PM
+
+This file is running on:    nt Windows 10
+The Python version is:      3.10.9
+
+The Python interpreter is at:
+ C:\Users\spamidi\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\python.exe
+
+
+DELETED tabble pets.
+CREATED table pets.
+
+P1 getting ready to insert Ace the Dog.
+P1 ADDED Ace the Dog.
+P2 getting ready to insert Cooper the Rabbit.
+P3 getting ready to insert Emma the Rabbit.
+P1 getting ready to insert Buddy the Dog.
+P1 ADDED Buddy the Dog.
+Process Process-2:
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "c:\Users\spamidi\Documents\Data Streaming\Module 2\streaming-02-multiple-processes-main\multiple_processes.py", line 106, in process_two
+    insert_pet("P2", "Cooper", "Rabbit")
+  File "c:\Users\spamidi\Documents\Data Streaming\Module 2\streaming-02-multiple-processes-main\multiple_processes.py", line 95, in insert_pet
+    cur.execute(sql)
+sqlite3.OperationalError: database is locked
+Process Process-3:
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\lib\multiprocessing\process.py", line 314, in _bootstrap
+PS C:\Users\spamidi\Documents\Data Streaming\Module 2\streaming-02-multiple-processes-mai> & C:/Users/spamidi/AppData/Local/Microsoft/WindowsApps/python3.10.exe "c:/Users/spamidi/Documents/Data Streaming/Module 2/streaming-02-multiple-processes-main/multiple_processes.py"    
+
+
+STARTING UP.............................
+It's 2023-01-15 at 11:28 PM
+
+This file is running on:    nt Windows 10
+The Python version is:      3.10.9
+
+The Python interpreter is at:
+ C:\Users\spamidi\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\python.exe
+
+
+DELETED tabble pets.
+CREATED table pets.
+
+PS C:\Users\spamidi\Documents\Data Streaming\Module 2\streaming-02-multiple-processes-mai> & C:/Users/spamidi/AppData/Local/Microsoft/WindowsApps/python3.10.exe "c:/Users/spamidi/Documents/Data Streaming/Module 2/streaming-02-multiple-processes-main/multiple_processes.py"    
+
+
+STARTING UP.............................
+It's 2023-01-15 at 11:29 PM
+
+This file is running on:    nt Windows 10
+The Python version is:      3.10.9
+
+The Python interpreter is at:
+ C:\Users\spamidi\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\python.exe
+
+
+DELETED tabble pets.
+CREATED table pets.
+
+P1 getting ready to insert Ace the Dog.
+P1 ADDED Ace the Dog.
+P1 getting ready to insert Buddy the Dog.
+P1 ADDED Buddy the Dog.
+P2 getting ready to insert Cooper the Rabbit.
+P2 ADDED Cooper the Rabbit.
+P2 getting ready to insert Dufus the Dog.
+P2 ADDED Dufus the Dog.
+P3 getting ready to insert Emma the Rabbit.
+P3 ADDED Emma the Rabbit.
+P3 getting ready to insert Felix the Cat.
+P3 ADDED Felix the Cat.
+
+SUCCESS! All processes are done.
+Now - increase the task duration (representing
+      the time the task has the database
+      tied up during an insert statement).
+How well do the multiple, concurrent processes share a database
+when each task can take more time?
+How can we let multiple processes share a resource
+without interfering with each other?
+
+PS C:\Users\spamidi\Documents\Data Streaming\Module 2\streaming-02-multiple-processes-main> 
