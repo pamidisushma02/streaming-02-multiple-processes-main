@@ -1,0 +1,37 @@
+Sno,State,Region,Alcintake,Overspeed
+1,Andhra Pradesh,south,594,12747
+2,Arunachal Pradesh,northeast,11,16
+3,Assam,northeast,613,4596
+4,Bihar,north,1680,1496
+5,Chhattisgarh,centre,335,6720
+6,Goa,west,9,3148
+7,Gujarat,west,42,13752
+8,Haryana,north,1095,4185
+9,Himachal Pradesh,north,74,2763
+10,Jammu & Kashmir,north,388,2859
+11,Jharkhand,centre,611,1627
+12,Karnataka,south,2207,23370
+13,Kerala,south,35,20611
+14,Madhya Pradesh,centre,3540,20967
+15,Maharashtra,west,1251,29790
+16,Manipur,northeast,0,0
+17,Meghalaya,northeast,25,40
+18,Mizoram,east,16,48
+19,Nagaland,northeast,91,51
+20,Orissa,centre,637,3699
+21,Punjab,north,442,2253
+22,Rajasthan,northwest,915,11395
+23,Sikkim,northeast,8,28
+24,Tamil Nadu,south,1416,28804
+25,Telangana,centre,968,6266
+26,Tripura,east,12,499
+27,Uttarakhand,north,508,94
+28,Uttar Pradesh,north,1232,2561
+29,West Bengal,east,0,3339
+30,A & N Islands,southeast,25,94
+31,Chandigarh,north,11,160
+32,D & N Haveli,west,1,21
+33,Daman & Diu,west,0,21
+34,Delhi,north,51,
+35,Lakshadweep,southwest,0,1
+36,Puducherry,south,73,250
